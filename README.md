@@ -2,6 +2,14 @@
 
 Este é um gerador de senhas simples, desenvolvido com [React](https://react.dev/) e [Vite](https://vitejs.dev/). A aplicação cria senhas aleatórias de 12 caracteres, combinando letras, números e símbolos, e permite copiá-las para a área de transferência com um clique.
 
+## 🚀 Tecnologias utilizadas
+
+- React
+- Vite
+- JavaScript (ES6+)
+- HTML/CSS
+- Node.js
+
 ## ✅ Requisitos
 
 - Node.js (versão LTS recomendada)  
