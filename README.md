@@ -1,14 +1,13 @@
-# REACT: Password Generator
-# Gerador de Senhas em React
+# 🔐 Gerador de Senhas em React
 
-Este projeto é um gerador de senhas simples construído com [React](https://react.dev/) e [Vite](https://vitejs.dev/). A aplicação cria senhas aleatórias de 12 caracteres misturando letras, números e símbolos, além de permitir copiá-las para a área de transferência.
+Este é um gerador de senhas simples, desenvolvido com [React](https://react.dev/) e [Vite](https://vitejs.dev/). A aplicação cria senhas aleatórias de 12 caracteres, combinando letras, números e símbolos, e permite copiá-las para a área de transferência com um clique.
 
-## Requisitos
+## ✅ Requisitos
 
-- Node.js (versão LTS recomendada)
+- Node.js (versão LTS recomendada)  
 - npm
 
-## Instalação
+## 📦 Instalação
 
 Clone o repositório e instale as dependências:
 
@@ -16,19 +15,19 @@ Clone o repositório e instale as dependências:
 npm install
 ```
 
-## Uso
+## ▶️ Uso
 
-Execute o servidor de desenvolvimento com:
+Execute o servidor de desenvolvimento com o comando:
 
 ```bash
 npm run dev
 ```
 
-A aplicação será inicializada normalmente em `http://localhost:5173/`.
+A aplicação estará disponível em: [http://localhost:5173](http://localhost:5173)
 
-### Geração de senhas
+## 🔁 Geração de Senhas
 
-O código de geração se encontra em `src/App.jsx`:
+A lógica de geração está localizada em `src/App.jsx`:
 
 ```javascript
 function passwordGenerator() {
@@ -52,9 +51,9 @@ function copyToClipboard() {
 }
 ```
 
-## Scripts disponíveis
+## 🛠 Scripts disponíveis
 
-No `package.json` existem alguns scripts úteis:
+No `package.json`, os seguintes scripts estão disponíveis:
 
 ```json
 "dev": "vite",
@@ -63,8 +62,7 @@ No `package.json` existem alguns scripts úteis:
 "preview": "vite preview"
 ```
 
-Use `npm run build` para gerar a versão de produção e `npm run preview` para visualizá-la localmente.
-
-## Licença
-
-Este projeto foi disponibilizado sem uma licença específica.
+- `npm run dev`: inicia o ambiente de desenvolvimento
+- `npm run build`: gera a versão de produção
+- `npm run preview`: visualiza a build localmente
+- `npm run lint`: executa a verificação de linting
